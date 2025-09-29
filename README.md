@@ -4,27 +4,12 @@
 
 用于OpenList获取部分网盘API的接口和页面
 
-部署地址：[OpenList Token 获取工具 - 全球站点](https://api.oplist.org/)
-部署地址：[OpenList Token 获取工具 - 中国大陆](https://api.oplist.org.cn/)
-
 ## 部署方法
 
 ### 一键部署
 
-#### EdgeOne Functions 国际站
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=oplist-api&repository-url=https://github.com/OpenListTeam/OpenList-APIPages&build-command=npm%20run%20build-eo&install-command=npm%20install&output-directory=public&root-directory=./&env=MAIN_URLS)
-
-部署完成后，请登录[EdgeOne Functions后台](https://console.tencentcloud.com/edgeone/pages)，修改环境变量，请参考[变量说明](#变量说明)部分
-
-
-#### EdgeOne Functions 中国站
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=oplist-api&repository-url=https://github.com/OpenListTeam/OpenList-APIPages&build-command=npm%20run%20build-eo&install-command=npm%20install&output-directory=public&root-directory=./&env=MAIN_URLS)
-
-部署完成后，请登录[EdgeOne Functions后台](https://console.cloud.tencent.com/edgeone/pages)，修改环境变量，请参考[变量说明](#变量说明)部分
-
-
-#### Cloudflare Worker 全球站
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/OpenListTeam/OpenList-APIPages)
+#### Cloudflare Worker
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chingjyu/openlist-api)
 
 部署完成后，请登录[Cloudflare Worker后台](https://dash.cloudflare.com/)，修改环境变量，请参考[变量说明](#变量说明)部分
 
@@ -299,7 +284,3 @@ npm build-js && npm deploy-js
 | 谷歌云盘     | 验证登录   | googleui | googleui_go | 客户端ID      | 客户端秘钥         | /          |
 | Yandex   | 验证登录   | yandexui | yandexui_go | AppID      | AppKey        | /          |
 | Dropbox  | 验证登录   | dropboxs | dropboxs_go | AppID      | AppKey        | /          |
-
-## 项目赞助
-本项目的中国站点边缘函数、CDN加速及安全防护由[Tencent EdgeOne](https://edgeone.ai/zh?from=github)赞助
-<img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" style="width: 500px" />
